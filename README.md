@@ -1,18 +1,18 @@
-# simple-mutex
+# nano-mutex
 
 A lightweight TypeScript implementation of a mutex (mutual exclusion lock) for asynchronous JavaScript applications.
 
 ## Installation
 
 ```bash
-npm install simple-mutex
+npm install nano-mutex
 ```
 
 ## Usage
 
 ```typescript
-import { createMutex } from "simple-mutex";
-// or import Mutex from 'simple-mutex';
+import { createMutex } from "nano-mutex";
+// or import Mutex from 'nano-mutex';
 
 async function example() {
   const mutex = createMutex();
@@ -32,4 +32,4 @@ async function example() {
 
 ## License
 
-MIT
+© [Goban Source, LLC](https://gobansource.com), 2025. Released under the MIT License.
