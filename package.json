@@ -1,11 +1,12 @@
 {
   "name": "nano-mutex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a simple mutex implementation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "build": "rimraf dist && tsc",
