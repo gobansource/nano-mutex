@@ -1,5 +1,9 @@
 # nano-mutex
 
+[![npm](https://img.shields.io/npm/v/nano-mutex.svg)](https://www.npmjs.com/package/nano-mutex)
+
+**npm:** [nano-mutex](https://www.npmjs.com/package/nano-mutex)
+
 A lightweight TypeScript implementation of a mutex (mutual exclusion lock) for asynchronous JavaScript applications.
 
 ## Installation
@@ -29,6 +33,10 @@ async function example() {
   }
 }
 ```
+
+## Used By
+
+- [PushToDisplay](https://pushtodisplay.com) — an API-first real-time display board platform. Uses nano-mutex for safe async concurrency control in its React Native app and Node.js CLI.
 
 ## License
 
